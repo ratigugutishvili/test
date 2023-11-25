@@ -1,38 +1,444 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+header {
+  background-color: #F2F2F2;
+  padding: 2px;
+  margin-top: 10px;
+  font-size: 25px;
+  color: #075105;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.main{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.main a {
+  text-decoration: none;
+  color: #087506;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    background: #fff;
+    padding: 20px;
+}
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; 
+}
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lang{
+  display: flex;
+  align-items: center;
+}
+
+  .user{
+    display: flex;
+    align-items: center;
+  }
+.position{
+  position: absolute;
+  width: 100%;
+  background-color: #087506;
+  top: 1px;
+  height: 35px;
+  display: flex;
+  justify-content: right;
+  z-index: 0;
+  color: white;
+  align-items: center;
+  font-size: 15px;
+}
+
+.position span{
+  margin-right: 20px;
+}
+
+img{
+  z-index: 2;
+}
+
+.ourprod{
+  width: 100%;
+  text-align: center;
+  color: #087506;
+  font-size: 33px;
+  font-weight: 800;
+}
+.main-body{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+
+.withimg span{
+  display: block;
+  text-align: center;
+  color: #087506;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.ourprod2{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.before{
+  width: 38%;
+  height: 3px;
+  background-color: #075105;
+}
+.center{
+  font-size: 28px;
+  color: #087506;
+  font-weight: 800;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+
+.after{
+  width: 38%;
+  height: 3px;
+  background-color: #075105;
+}
+
+.nayini2{
+  display: block;
+  line-height: 160%;
+  text-align: center;
+  color: #087506;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.for-flex{
+  display: flex;
+  padding-left: 40px;
+  gap: 40px;
+}
+
+.circle{
+  border: #075105 5px solid;
+  border-radius: 100%;
+  max-width: 15px;
+  max-height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+}
+
+.for-flex2{
+  display: flex;
+  width: 80%;
+  gap: 10px;
+}
+
+.text{
+  font-size: 22px;
+  line-height: 130%;
+}
+
+.forimage{
+  margin-left: 50px;
+}
+.lang2{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.block div{
+  gap: 3px;
+  margin-top: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 17.5px;
+  z-index: 4;
+  cursor: pointer;
+}
+.block{
+  width: 130px;
+  background-color: #F2F2F2;
+  border-radius: 17.5px;
+  position: absolute;
+  top: 70px;
+}
+.block div span{
+  font-size: 14px;
+  line-height: 70%;
+}
+
+
+
+.block div:hover{
+  height: 60px;
+  background-color: white;
+}
+.d-flex{
+  display: flex;
+}
+
+.withspan{
+  margin-top: 80px;
+  color: #087506;
+  font-size: 23px;
+  line-height: 110%;
+  gap: 15px;
+  width: 800px;
+  font-weight: bolder;
+}
+
+.forpadd{
+  justify-content: center;
+  gap: 100px;
+  margin-top: 160px;
+}
+
+.forrame{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  z-index: 0;
+}
+
+.forrela{
+  position: relative;
+}
+
+.abut{
+  width: 550px;
+}
+.mcenare{
+  position: absolute;
+  left: 1px;
+  bottom: -180px;
+}
+
+.agharvici{
+  position: relative;
+}
+
+.mcenare2{
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+}
+
+.and{
+  align-items: center;
+  gap: 4px;
+}
+
+.soo{
+  top: 50px;
+  padding-top: 40px;
+  position: absolute;
+  height:200px ;
+  z-index: 1;
+  display: none;
+}
+
+
+.fordrop:hover .soo{
+  display: block;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 170px;
+  padding: 12px 16px;
+  z-index: 1;
+  background-image: url('./bordera.png');
+  height: 160px;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+
+.under{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ako{
+  text-align: center;
+  font-size: 29px;
+  font-weight: 600;
+  color: #087506;
+  margin-bottom: 0;
+  margin-top: 80px;
+}
+
+.experience{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+.experience div{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.expspan{
+  color: #087506;
+  font-size: 20px;
+  line-height: 120%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.expdiv{
+  width: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  overflow: hidden;
+  text-align: center;
+  font-size: 28px;
+  color: #087506;
+}
+
+h1::before,
+h1::after {
+  background-color:#075105;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.withspan button{
+  width: 500px;
+  height: 70px;
+  border: #087506 2px solid;
+  border-radius: 35px;
+  color: #075105;
+  background-color: white;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.withspan button:hover{
+  background-color: #075105;
+  color: white;
+  cursor: pointer;
+}
+
+.for-more-circle{
+  min-width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: #075105;
+  margin-top: 3px;
+}
+
+p{
+  display: inline-block;
+}
+
+.for-p{
+  display: flex;
+}
+
+.for-p div {
+  font-size: 20px;
+  color: #087506;
+}
+
+.for-p span{
+  font-size: 30px;
+}
+
+
+
+.withspana{
+  margin-top: 20px;
+  color: #087506;
+  font-size: 19px;
+  line-height: 110%;
+  gap: 15px;
+  font-weight: bolder;
+}
+
+.nayeni-ebrdzvis{
+  font-size: 22px;
+  color: #075105;
+  line-height: 110%;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+.for-production{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 4px;
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.for-spani{
+  font-size: 21px;
+  color: #075105;
+  font-weight: bold;
+  line-height: 110%;
 }

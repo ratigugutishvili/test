@@ -3,11 +3,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom'
+import Production from './components/production';
+const rame= {color: 'red'}
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App prop={{color:'main'}} />
+  },
+  {
+    path: "/production",
+    element: <Production prop={{color:'rediko'}} />
+  },
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
