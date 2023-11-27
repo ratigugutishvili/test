@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <App prop={{color:'main'}} />
   },
   {
-    path: "/production",
+    path: "https://urchin-app-rg8ub.ondigitalocean.app/production",
     element: <Production prop={{color:'rediko'}} />
   },
 ])
