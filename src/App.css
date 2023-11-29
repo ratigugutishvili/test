@@ -451,4 +451,7 @@ p{
     width: 100%;
     gap: 2px;
   }
+  .forpadd{
+    gap: 10px;
+  }
 }

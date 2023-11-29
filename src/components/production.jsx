@@ -170,6 +170,9 @@ export default function Production({ prop }) {
               ხსჯხსბ 28192ყ სხკბჯბხს
             </span>
           </div>
+          <div className="d-flex withspan">
+            <button> დაგვიკავშირდი შესაძენად</button>
+          </div>
         </div>
       </div>
     </div>
