@@ -5,7 +5,10 @@ import nayeni from "../nayeni.png"
 import malamo1 from "../malamo1.png"
 import aboutus from "../lela.png"
 import aboutus3 from "../aboutus3.png"
+import mamao from "../mamao.png"
+import celeb from "../celeb.png"
 import mcenare from "../mcenare1.png"
+import celeb2 from "../celeb2.png"
 import screen1 from "../Screenshot_1.png"
 
 export default function Body(){
@@ -85,7 +88,7 @@ export default function Body(){
                 </div>
                 <div >
                     <div className="expspan">თამარ ივერი</div>
-                    <div><img src={screen1} alt="" srcset="" /></div>
+                    <div><img src={mamao} alt="" srcset="" /></div>
                     <div  className="expdiv">
                         <span className="expspan">“ქავთასი კურნავს კუჭ-ნაწლავის პათოლოგიებს (წყლულსა და ეროზიებს) ღვიძლის ნებისმიერ პათოლოგიას.... იხ. მეტი</span>
                     </div>
@@ -94,14 +97,14 @@ export default function Body(){
             <div className="d-flex experience">
                 <div >
                     <div className="expspan">თამარ ივერი</div>
-                    <div><img src={screen1} alt="" srcset="" /></div>
+                    <div><img src={celeb} alt="" srcset="" /></div>
                     <div className="expdiv">
                         <span className="expspan">“ქავთასი კურნავს კუჭ-ნაწლავის პათოლოგიებს (წყლულსა და ეროზიებს) ღვიძლის ნებისმიერ პათოლოგიას.... იხ. მეტი</span>
                     </div>
                 </div>
                 <div >
                     <div className="expspan">თამარ ივერი</div>
-                    <div><img src={screen1} alt="" srcset="" /></div>
+                    <div><img src={celeb2} alt="" srcset="" /></div>
                     <div className="expdiv">
                         <span className="expspan">“ქავთასი კურნავს კუჭ-ნაწლავის პათოლოგიებს (წყლულსა და ეროზიებს) ღვიძლის ნებისმიერ პათოლოგიას.... იხ. მეტი</span>
                     </div>
