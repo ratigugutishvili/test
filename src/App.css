@@ -17,6 +17,7 @@ header {
   display: flex;
   gap: 40px;
   align-items: center;
+  margin-top: 9px;
 }
 .main a {
   text-decoration: none;
