@@ -417,6 +417,7 @@ p{
   line-height: 110%;
   gap: 15px;
   font-weight: bolder;
+  width: 80%;
 }
 
 .nayeni-ebrdzvis{
@@ -434,6 +435,7 @@ p{
   gap: 4px;
   width: 100%;
   justify-content: center;
+  padding-left: 8%;
 }
 
 .for-spani{
