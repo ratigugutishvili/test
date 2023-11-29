@@ -4,6 +4,7 @@ import mcenare2 from "../mcenare2.png"
 import nayeni from "../nayeni.png"
 import malamo1 from "../malamo1.png"
 import aboutus from "../lela.png"
+import aboutus3 from "../aboutus3.png"
 import mcenare from "../mcenare1.png"
 import screen1 from "../Screenshot_1.png"
 
@@ -58,7 +59,7 @@ export default function Body(){
             <div  className="d-flex forpadd">
                 <div>
                     <div className="forrela">
-                        <img src={aboutus} alt="" srcset="" />
+                        <img src={aboutus3} alt="" srcset="" />
                     </div>
                 </div>
                 <div>
