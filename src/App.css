@@ -448,5 +448,6 @@ p{
 @media only screen and (max-width: 1366px) {
   .main-body {
     width: 100%;
+    gap: 2px;
   }
 }
