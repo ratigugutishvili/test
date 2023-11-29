@@ -444,3 +444,9 @@ p{
   font-weight: bold;
   line-height: 110%;
 }
+
+@media only screen and (max-width: 1366px) {
+  body {
+    background-color: rgb(230, 189, 173);
+  }
+}
