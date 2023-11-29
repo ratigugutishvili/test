@@ -446,7 +446,7 @@ p{
 }
 
 @media only screen and (max-width: 1366px) {
-  body {
-    background-color: rgb(230, 189, 173);
+  .main-body {
+    width: 100%;
   }
 }
