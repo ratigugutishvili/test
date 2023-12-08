@@ -13,7 +13,7 @@ export default function Blog({prop}){
         <div>
             <Header />
             <div className="blog">
-                <div>
+                <div className="blog-p">
                     <p className="for-blog">ბ ლ ო გ ი</p>
                     <p className="for-qavtas for-blog">ქ ა ვ თ ა ს ი</p>
                 </div>
