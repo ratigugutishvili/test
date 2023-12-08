@@ -18,9 +18,6 @@
     gap: 150px;
 }
 
-.blog-p{
-    width: 300px;
-}
 
 .for-blog{
     margin-left: 120px;
@@ -47,7 +44,7 @@
 }
 
 .blog-img{
-    width: 400px;
+    width: 300px;
     height: 425px;
 }
 
