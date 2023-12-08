@@ -20,7 +20,7 @@
 
 
 .for-blog{
-    margin-left: 120px;
+    margin-left: 100px;
     display: block;
     font-family: myFont;
     font-size: 60px;
@@ -31,7 +31,7 @@
 }
 
 .for-qavtas{
-    margin-left: 230px;
+    margin-left: 180px;
 }
 
 .inreview{
@@ -44,7 +44,7 @@
 }
 
 .blog-img{
-    width: 300px;
+    width: 350px;
     height: 425px;
 }
 
