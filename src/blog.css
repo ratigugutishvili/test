@@ -15,7 +15,7 @@
 .blog{
     padding: 15px;
     display: flex;
-    gap: 150px;
+    gap: 100px;
 }
 
 
@@ -51,5 +51,5 @@
 .blog2{
     margin-top: 60px;
     justify-content: center;
-    gap: 160px;
+    gap: 130px;
 }
