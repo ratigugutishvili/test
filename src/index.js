@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Blog from "./components/blog";
+import './blog.css';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom'
 import Production from './components/production';
+import Interview from './components/interview';
 const rame= {color: 'red'}
 const router = createBrowserRouter([
   {
@@ -15,8 +18,16 @@ const router = createBrowserRouter([
     element: <App prop={{color:'main'}} />
   },
   {
+    path: "/interview",
+    element: <Interview />
+  },
+  {
     path: "/production",
     element: <Production prop={{color:'rediko'}} />
+  },
+  {
+    path: "/blogs",
+    element: <Blog prop={{color:'rediko'}} />
   },
 ])
 
