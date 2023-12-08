@@ -21,10 +21,11 @@
 
 
 .for-blog{
-    margin-left: 150px;
+    margin-left: 120px;
     display: block;
     font-family: myFont;
-    font-size: 66px;
+    font-size: 60px;
+    max-width: 300px;
     color: #075105;
     margin-top: 13px;
     margin-bottom: 0;
