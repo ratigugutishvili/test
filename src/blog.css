@@ -53,3 +53,45 @@
     justify-content: center;
     gap: 130px;
 }
+
+.blog-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 165px;
+    padding-right: 70px;
+}
+.blog-span{
+    font-size: 26px;
+    color: #075105;
+}
+
+.blog-circle{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #075105;
+    border-radius: 100%;
+    position: absolute;
+    top: 11px;
+    background-color: #075105;
+    left: 40px;
+}
+
+.blog-interwie-flex{
+    position: relative;
+}
+
+
+.forpaddingblog{
+    padding-left: 65px;
+}
+
+.for-blog-margin{
+    margin-top: 60px;
+}
+.for-blog-margin span{
+    font-weight: bolder;
+}
+
+.third span{
+    font-weight: lighter;
+}
