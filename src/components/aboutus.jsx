@@ -32,6 +32,17 @@ export default function AboutUs({ prop }) {
           <img src={aboutus} alt="" srcset="" />
         </div>
       </div>
+      <div className="blog-interwie-flex margin-top">
+        <div className="blog-circle"></div>
+        <div className="forpaddingblog">
+          <span className="blog-span">
+            ჰეპატიტი, ღვიძლის დაზინებები, სიმსივნე, ფარისებრი ჯირკვალი,
+            ფიბროზული წარმონაქმნები, პროსტატა, კუჭ-ნაწლავის პრობლემები, ეს
+            მხოლოდ მცირე ჩამოანთვალია იმ პრობლემებისა, რომლის დამარცხებაშიც
+            პაციენტები ლელა გეჯაძეს ემადლიერებიან.
+          </span>
+        </div>
+      </div>
     </div>
   );
 }
