@@ -14,3 +14,50 @@
 .margin-top{
     margin-top: 30px;
 }
+
+.about-us-p{
+    text-align: center;
+    font-size: 29px;
+    margin-top: 50px;
+    color: #075105;
+    font-weight: bolder;
+}
+
+.aboutus-span{
+    font-size: 22px;
+    line-height:160%;
+    font-weight: 500;
+}
+
+.aboutus-cures{
+    width: 40%;
+    font-size: 26px;
+    text-align: center;
+    color: #075105;
+    margin-top: 48px;
+    line-height:160%;
+    font-weight: 500;
+}
+
+.each{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.each span{
+    font-size: 19px;
+    color: #075105;
+    line-height:160%;
+    font-weight: 500;
+}
+
+.aboutus-main{
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.aboutus-list-span{
+    font-size: 19px;
+}
