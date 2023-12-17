@@ -34,6 +34,10 @@
     margin-left: 180px;
 }
 
+.blog span{
+    padding-right: 48px;
+}
+
 .inreview{
     font-size: 32px;
     width: 400px;
@@ -51,7 +55,7 @@
 .blog2{
     margin-top: 60px;
     justify-content: center;
-    gap: 130px;
+    gap: 100px;
 }
 
 .blog-flex{
