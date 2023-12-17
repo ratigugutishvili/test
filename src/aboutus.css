@@ -1,0 +1,12 @@
+.aboutus-stroke{
+    color: #075105;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0px 90px;
+    font-size: 26px;
+}
+
+.aboutus-flex{
+    display: flex;
+    margin-top: 50px;
+}

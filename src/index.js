@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Blog from "./components/blog";
 import './blog.css';
+import './aboutus.css';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -11,6 +12,7 @@ import {
 } from 'react-router-dom'
 import Production from './components/production';
 import Interview from './components/interview';
+import AboutUs from './components/aboutus';
 const rame= {color: 'red'}
 const router = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/production",
     element: <Production prop={{color:'rediko'}} />
+  },
+  {
+    path: "/aboutus",
+    element: <AboutUs />
   },
   {
     path: "/blogs",

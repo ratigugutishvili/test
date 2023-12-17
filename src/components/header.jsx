@@ -37,7 +37,7 @@ export default function Header({prop}){
                 </div>
                 <a href="/blogs">ბლოგი</a>
                 <a href="x">გამოხმაურება</a>
-                <a href="x">ჩვენს შესახებ</a>
+                <a href="/aboutus">ჩვენს შესახებ</a>
                 <a href="x">კონტაქტი</a>
             </div>
             <div className="lang2">
