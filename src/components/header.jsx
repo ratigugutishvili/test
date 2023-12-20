@@ -27,7 +27,7 @@ export default function Header({prop}){
                     <div class="dropdown-content">
                             <div className="d-flex and">
                                 <div className="circle"></div>
-                                <div>ნაყენი</div>
+                                <div>ნაყენიi</div>
                             </div>
                             <div className="d-flex and">
                                 <div className="circle"></div>
