@@ -8,6 +8,11 @@ import { useState } from "react";
 
 export default function Production({ prop }) {
   const [more, setmore] = useState(false);
+  const gayidvebi = readLocalStorage()
+  function add() {
+    const obj = {addres:'firosmani',phone:'555105360'}
+    gayidvebi.push()
+  }
   return (
     <div>
       <Header prop={{ color: "rediko" }} />
@@ -171,7 +176,7 @@ export default function Production({ prop }) {
             </span>
           </div>
           <div className="d-flex withspan">
-            <button> დაგვიკავშირდი შესაძენად</button>
+            <button > დაგვიკავშირდი შესაძენად</button>
           </div>
         </div>
       </div>
@@ -179,5 +184,10 @@ export default function Production({ prop }) {
   );
 }
 
-const rame =
-  '<div className="for-p"><div className="for-more-circle"></div><div> ქავთასი წმენდს სისხლს, გამოდევნის ტოქსინებს შლაკებსწინამდებარე ჯირკვლის ნებისმიერ პათოლოგიას ( პროსტატიტს, როგორცსიმფტომურად ასევე ხარისხობრივად)</div></div>';
+function readLocalStorage() {
+  var expenses = localStorage.getItem('gayidvebi')
+  if (expenses === null) {
+      return []
+  }
+  return JSON.parse(expenses)
+}
