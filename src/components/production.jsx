@@ -10,8 +10,9 @@ export default function Production({ prop }) {
   const [more, setmore] = useState(false);
   const gayidvebi = readLocalStorage()
   function add() {
-    const obj = {addres:'firosmani',phone:'555105360'}
-    gayidvebi.push()
+    const obj = {address:'firosmani',phone:'555105360'}
+    gayidvebi.push(obj)
+    localStorage.setItem('gayidvebi', JSON.stringify(gayidvebi))
   }
   return (
     <div>
@@ -48,7 +49,7 @@ export default function Production({ prop }) {
             </span>
           </div>
           <div className="d-flex withspan">
-            <button> დაგვიკავშირდი შესაძენად</button>
+            <button onClick={()=>{add()}}> დაგვიკავშირდი შესაძენად</button>
           </div>
 
         </div>
