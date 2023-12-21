@@ -54,6 +54,17 @@ section::after {
   clear: both;
 }
 
+.gamoc{
+  width: 460px;
+  height: 357px;
+}
+
+.gamoc img{
+  width: 460px;
+  height: 357px;
+  object-fit: contain;
+}
+
 .lang{
   display: flex;
   align-items: center;
@@ -230,7 +241,7 @@ img{
 .forpadd{
   justify-content: center;
   gap: 70px;
-  margin-top: 160px;
+  margin-top: 110px;
 }
 
 .forrame{
@@ -333,6 +344,10 @@ img{
   color: #087506;
   font-size: 20px;
   line-height: 120%;
+}
+
+.strokeg{
+  font-weight: bold;
 }
 
 .expdiv{

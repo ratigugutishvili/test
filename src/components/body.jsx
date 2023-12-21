@@ -9,7 +9,7 @@ import mamao from "../mamao.png"
 import celeb from "../celeb.png"
 import mcenare from "../mcenare1.png"
 import celeb2 from "../celeb2.png"
-import screen1 from "../Screenshot_1.png"
+import gamoc from "../gamoc.png"
 
 export default function Body(){
     return (
@@ -46,12 +46,12 @@ export default function Body(){
                 <div>
                     <div className="d-flex withspan">
                         <div className="circle"></div>
-                        <span>ბლაბლბალბალბლაბლაბლბ ბლაბალბლ <br /> ბლაბა ლბალბალბ ბალბალბალ ბლაბ <br /> ბლალ ბალლაბაბა ჰკხკჯსბ სხაბჯკხკსბხჯკა <br /> ბცსჯ სხნჯსხ ხსჯხსბ 28192ყ სხკბჯბხს</span>
+                        <span>სასწაულმოქმედი ქართული ნაყენი ქავთასი, რომელიც უმძიმეს დაავადებებს ამარცხებს, უკვე 18 წელია წარმატებით კურნავს უმძიმეს პაციენტებს საქართველოსა და მსოფლიოს მრავალ ქვეყანაში.</span>
                     </div>
-                    <div className="d-flex withspan">
+                    {/* <div className="d-flex withspan">
                         <div className="circle"></div>
                         <span>ბლაბლბალბალბლაბლაბლბ ბლაბალბლ <br /> ბლაბა ლბალბალბ ბალბალბალ ბლაბ <br /> ბლალ ბალლაბაბა ჰკხკჯსბ სხაბჯკხკსბხჯკა <br /> ბცსჯ სხნჯსხ ხსჯხსბ 28192ყ სხკბჯბხს</span>
-                    </div>
+                    </div> */}
                 </div>
                 <div>
                     <div className="forrela">
@@ -68,45 +68,45 @@ export default function Body(){
                 <div>
                     <div className="d-flex withspan">
                         <div className="circle"></div>
-                        <span>ბლაბლბალბალბლაბლაბლბ ბლაბალბლ <br /> ბლაბა ლბალბალბ ბალბალბალ ბლაბ <br /> ბლალ ბალლაბაბა ჰკხკჯსბ სხაბჯკხკსბხჯკა <br /> ბცსჯ სხნჯსხ ხსჯხსბ 28192ყ სხკბჯბხს</span>
+                        <span>ყოველდღიურ პრაქტიკაში ჩვენ სხვადასხვა დაავადებასთან ბრძოლის ახალ მეთოდებს ვეძებთ. განსაკუთებით კი მაშინ, როდესაც მედიცინა უძლურია და გამოჯანმრთელების იმედს ბოლომდე ვერ გვაძლევს. აღმოჩნდა, რომ საქართველოში ბევრი ასეთი ადამიანია, რომლებმაც ბოლო იმედად უნიკალური სამკურნალო ნაყენი „ქავთასი“ აირჩიეს. </span>
                     </div>
-                    <div className="d-flex withspan">
+                    {/* <div className="d-flex withspan">
                         <div className="circle"></div>
                         <span>ბლაბლბალბალბლაბლაბლბ ბლაბალბლ <br /> ბლაბა ლბალბალბ ბალბალბალ ბლაბ <br /> ბლალ ბალლაბაბა ჰკხკჯსბ სხაბჯკხკსბხჯკა <br /> ბცსჯ სხნჯსხ ხსჯხსბ 28192ყ სხკბჯბხს</span>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             </div>
             <h1>გამოცდილება</h1>
             <div className="d-flex experience">
                 <div >
-                    <div className="expspan">თამარ ივერი</div>
-                    <div><img src={screen1} alt="" srcset="" /></div>
+                    <div className="expspan strokeg">ნუკა კვალიაშვილი</div>
+                    <div className="gamoc"><img src={gamoc} alt="" srcset="" /></div>
                     <div  className="expdiv">
-                        <span className="expspan">“ქავთასი კურნავს კუჭ-ნაწლავის პათოლოგიებს (წყლულსა და ეროზიებს) ღვიძლის ნებისმიერ პათოლოგიას.... იხ. მეტი</span>
+                        <span className="expspan">“უკიდეგანოდ მადლობელი ვარ ეს საშინელი ტანჯვა რომ მომაცილეთ, ბოლო იმედი იყო ქავთასი ჩემთვის, ოპერაციის გაკეთება მესაჭიროებოდა. შედეგი მივიღე მეორე დღესვე, რაც ქავთასის მომხმარებელი გავხდი, ტკივილგამაყუჩებლები დამავიწყდა.”</span>
                     </div>
                 </div>
                 <div >
-                    <div className="expspan">თამარ ივერი</div>
-                    <div><img src={mamao} alt="" srcset="" /></div>
+                    <div className="expspan strokeg">მამა პანტელეიმონ იოსავა</div>
+                    <div className="gamoc"><img src={mamao} alt="" srcset="" /></div>
                     <div  className="expdiv">
-                        <span className="expspan">“ქავთასი კურნავს კუჭ-ნაწლავის პათოლოგიებს (წყლულსა და ეროზიებს) ღვიძლის ნებისმიერ პათოლოგიას.... იხ. მეტი</span>
+                        <span className="expspan">“მადლობას ვუხდი ქალბატონ ლელას გაწეული მკურნალობისთვის, მართლაც რომ ძალიან შედეგიანი ნაყენია “ქავთასი”, მან გამკურნა ჰემეროიდისგან და მოახდინა კომპლექსური მკურნალობა.”</span>
                     </div>
                 </div>
             </div>
             <div className="d-flex experience">
                 <div >
-                    <div className="expspan">თამარ ივერი</div>
-                    <div><img src={celeb} alt="" srcset="" /></div>
+                    <div className="expspan strokeg">გია გოგორიშვილი</div>
+                    <div className="gamoc"><img src={celeb} alt="" srcset="" /></div>
                     <div className="expdiv">
-                        <span className="expspan">“ქავთასი კურნავს კუჭ-ნაწლავის პათოლოგიებს (წყლულსა და ეროზიებს) ღვიძლის ნებისმიერ პათოლოგიას.... იხ. მეტი</span>
+                        <span className="expspan">“ქავთასმა მომიგვარა უსერიოზულესი ღვიძლის პრობლემები, აბსოლიტურად დაარეგულირა, როგორც ღვიძლის ფუნქციები ასევე აღადგინა იგი ხარისხობრივად. დიდ რეკომენდაციას ვუწევ ქავთასს და მადლობას ვუხდი ქნ. ლელა გეჯაძეს.”</span>
                     </div>
                 </div>
                 <div >
-                    <div className="expspan">თამარ ივერი</div>
-                    <div><img src={celeb2} alt="" srcset="" /></div>
+                    <div className="expspan strokeg">ბექა ღვინიაშვილი</div>
+                    <div className="gamoc"><img src={celeb2} alt="" srcset="" /></div>
                     <div className="expdiv">
-                        <span className="expspan">“ქავთასი კურნავს კუჭ-ნაწლავის პათოლოგიებს (წყლულსა და ეროზიებს) ღვიძლის ნებისმიერ პათოლოგიას.... იხ. მეტი</span>
+                        <span className="expspan">“მინდა რეკომენდაცია გავუწიო ქავთასს, არაჩვეულებრივი წამალია ზოგადად იმუნიტეტისთვის, დიდ მადლობას ვუხდი ქნ. ლელა გეჯაძეს გაწეული პროფესიონალური მომსახურებისთვის”</span>
                     </div>
                 </div>
             </div>
