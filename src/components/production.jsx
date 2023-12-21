@@ -156,26 +156,43 @@ export default function Production({ prop }) {
 
         <div>
             <span className="for-spani">ბუასილის და ჰემოროიდული კვანძების <br /> საწინააღმდეგო მალამო "ქავთასი" :</span>
-          <div className="d-flex withspan">
-            <div className="circle"></div>
-            <span>
-              .კუჭ-ნაწლავის ნებისმიერ პათოლოგიას (გასტრიტი, რეფლუქსი,
-              ეზოფაგიტი,წყლული) .ნაღვლის ბუშტის პათოლოგიებს
-              (კენჭები,კონკრემენტები,ქოლეცისტიტი) .თირკმელების პათოლოგიებს
-              (კრეატინინი, ვიზუალურად) .საშარდე გზების პათოლოგიებს (ცისტიტი,
-              ანთებითი პროცესი) .ჰემოროი-ბუასილს (სისხლმდენი კვანძოვანი, შიდა
-              ნახეთქებით)
-              <div>იხილეთ მეტი</div>
-            </span>
-          </div>
-          <div className="d-flex withspan">
-            <div className="circle"></div>
-            <span>
-              ბლაბლბალბალბლაბლაბლბ ბლაბალბლ <br /> ბლაბა ლბალბალბ ბალბალბალ ბლაბ{" "}
-              <br /> ბლალ ბალლაბაბა ჰკხკჯსბ სხაბჯკხკსბხჯკა <br /> ბცსჯ სხნჯსხ
-              ხსჯხსბ 28192ყ სხკბჯბხს
-            </span>
-          </div>
+
+          <div className="d-flex withspana margin-topee">
+              <div className="for-more-circle"></div>
+              <span>
+                ხსნის ტკივილს და სისხლდენას
+              </span>
+            </div>
+            <div className="d-flex withspana">
+              <div className="for-more-circle"></div>
+              <span>
+                ახორცებს ნატეთქებს არის ძლიერი ანტისეპტიკი
+              </span>
+            </div>
+            <div className="d-flex withspana">
+              <div className="for-more-circle"></div>
+              <span>
+                ხსნის ქავილს და დაჭიმობუს შეგრძნებას
+              </span>
+            </div>
+            <div className="d-flex withspana">
+              <div className="for-more-circle"></div>
+              <span>
+                აქვს უნარი გაიწოვოს კვანძები
+              </span>
+            </div>
+            <div className="d-flex withspana">
+              <div className="for-more-circle"></div>
+              <span>
+                მომენტალურად ახორცებს ნახეთქებს
+              </span>
+            </div>
+            <div className="d-flex withspana">
+              <div className="for-more-circle"></div>
+              <span>
+                რაც მთავარია არ შეიცავს ჰორმონს
+              </span>
+            </div>
           <div className="d-flex withspan">
             <button > დაგვიკავშირდი შესაძენად</button>
           </div>
