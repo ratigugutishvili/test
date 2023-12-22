@@ -30,15 +30,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/production",
-    element: <Production prop={{color:'rediko'}} />
+    element: <Production prop={{color:'prod'}} />
   },
   {
     path: "/aboutus",
-    element: <AboutUs />
+    element: <AboutUs prop={{color:'abus'}}  />
   },
   {
     path: "/blogs",
-    element: <Blog prop={{color:'rediko'}} />
+    element: <Blog prop={{color:'blog'}} />
   },
 ])
 

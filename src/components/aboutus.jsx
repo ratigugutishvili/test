@@ -38,7 +38,7 @@ export default function AboutUs({ prop }) {
     }
   return (
     <div>
-      <Header />
+      <Header prop={{ color: "abus" }}/>
       <div className="aboutus-stroke">
         სასწაულმოქმედი ქართული ნაყენი - ქ ა ვ თ ა ს ი, რომელიც უმძიმეს <br />
         დაავადებებს ამარცხებს, უკვე 18 წელია წარმატებით კურნავს უმძიმეს <br />

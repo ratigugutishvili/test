@@ -11,7 +11,7 @@ export default function Blog({prop}){
 
     return(
         <div>
-            <Header />
+            <Header prop={{ color: "blog" }} />
             <div className="blog">
                 <div className="blog-p">
                     <p className="for-blog">ბ ლ ო გ ი</p>

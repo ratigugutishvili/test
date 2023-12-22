@@ -16,7 +16,7 @@ export default function Production({ prop }) {
   }
   return (
     <div>
-      <Header prop={{ color: "rediko" }} />
+      <Header prop={{ color: "prod" }} />
       <h1>ჩვენი პროდუქცია</h1>
       <div className="main-body">
         <div className="withimg">

@@ -15,19 +15,20 @@ export default function Header({prop}){
     if (!prop) {
         prop={color:'green'}
     }
+    console.log(prop.color);
     return (
         <header>
             <img src={Logo} alt="" srcset="" />
             <div className="main">
-                {prop.color == 'main' && <a href="/" style={{color:'red'}}>მთავარი</a>}
+                {prop.color == 'main' && <a href="/" style={{fontWeight:'bold'}}>მთავარი</a>}
                 {prop.color !== 'main' && <a href="/">მთავარი</a>}
                 <div class="dropdown">
-                    {prop.color == 'rediko' && <a href="/production" style={{color:'red'}}  >პროდუქცია</a>}
-                    {prop.color !== 'rediko' && <a href="/production"  >პროდუქცია</a>}
+                    {prop.color == 'prod' && <a href="/production" style={{fontWeight:'bold'}}  >პროდუქცია</a>}
+                    {prop.color !== 'prod' && <a href="/production"  >პროდუქცია</a>}
                     <div class="dropdown-content">
                             <div className="d-flex and">
                                 <div className="circle"></div>
-                                <div>ნაყენიi</div>
+                                <div>ნაყენი</div>
                             </div>
                             <div className="d-flex and">
                                 <div className="circle"></div>
@@ -35,9 +36,11 @@ export default function Header({prop}){
                             </div>
                     </div>
                 </div>
-                <a href="/blogs">ბლოგი</a>
-                <a href="x">გამოხმაურება</a>
-                <a href="/aboutus">ჩვენს შესახებ</a>
+                {prop.color == 'blog' && <a href="/blogs" style={{fontWeight:'bold'}}  >ბლოგი</a>}
+                {prop.color !== 'blog' && <a href="/blogs"  >ბლოგი</a>}
+                
+                {prop.color == 'abus' && <a href="/aboutus" style={{fontWeight:'bold'}}  >ჩვენ შესახებ</a>}
+                {prop.color !== 'abus' && <a href="/aboutus"  >ჩვენ შესახებ</a>}
                 <a href="x">კონტაქტი</a>
             </div>
             <div className="lang2">
