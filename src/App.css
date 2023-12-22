@@ -425,6 +425,9 @@ p{
 }
 
 
+.header-hoverii:hover{
+  font-weight: bold;
+}
 
 .withspana{
   margin-top: 20px;

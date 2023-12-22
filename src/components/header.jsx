@@ -20,11 +20,11 @@ export default function Header({prop}){
         <header>
             <img src={Logo} alt="" srcset="" />
             <div className="main">
-                {prop.color == 'main' && <a href="/" style={{fontWeight:'bold'}}>მთავარი</a>}
-                {prop.color !== 'main' && <a href="/">მთავარი</a>}
+                {prop.color == 'main' && <a href="/" style={{fontWeight:'bold'}}className="header-hoverii">მთავარი</a>}
+                {prop.color !== 'main' && <a href="/"className="header-hoverii">მთავარი</a>}
                 <div class="dropdown">
-                    {prop.color == 'prod' && <a href="/production" style={{fontWeight:'bold'}}  >პროდუქცია</a>}
-                    {prop.color !== 'prod' && <a href="/production"  >პროდუქცია</a>}
+                    {prop.color == 'prod' && <a href="/production" style={{fontWeight:'bold'}} className="header-hoverii" >პროდუქცია</a>}
+                    {prop.color !== 'prod' && <a href="/production" className="header-hoverii" >პროდუქცია</a>}
                     <div class="dropdown-content">
                             <div className="d-flex and">
                                 <div className="circle"></div>
@@ -36,11 +36,11 @@ export default function Header({prop}){
                             </div>
                     </div>
                 </div>
-                {prop.color == 'blog' && <a href="/blogs" style={{fontWeight:'bold'}}  >ბლოგი</a>}
+                {prop.color == 'blog' && <a href="/blogs" style={{fontWeight:'bold'}} className="header-hoverii" >ბლოგი</a>}
                 {prop.color !== 'blog' && <a href="/blogs"  >ბლოგი</a>}
                 
-                {prop.color == 'abus' && <a href="/aboutus" style={{fontWeight:'bold'}}  >ჩვენ შესახებ</a>}
-                {prop.color !== 'abus' && <a href="/aboutus"  >ჩვენ შესახებ</a>}
+                {prop.color == 'abus' && <a href="/aboutus" style={{fontWeight:'bold'}} className="header-hoverii" >ჩვენ შესახებ</a>}
+                {prop.color !== 'abus' && <a href="/aboutus" className="header-hoverii" >ჩვენ შესახებ</a>}
                 <a href="x">კონტაქტი</a>
             </div>
             <div className="lang2">
@@ -57,7 +57,7 @@ export default function Header({prop}){
                 }
             </div>
             <div className="position">
-                <span>595-95-95-95</span>
+                <span>595 26 32 17</span>
             </div>
         </header>
     )
