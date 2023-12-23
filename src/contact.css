@@ -1,0 +1,27 @@
+@font-face {
+    font-family: myFont;
+    src: url('./gl-gordeziani-regular.ttf');
+}
+
+
+.contact-span{
+    color: #075105;
+    font-size: 45px;
+    padding-left: 110px;
+    margin-top: 130px;
+    font-weight: bold;
+    font-family: myFont;
+}
+
+
+.contact-flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-flex span{
+    font-size: 30px;
+    color: #075105;
+    font-weight: bold;
+}

@@ -1,5 +1,6 @@
 import nayeni1 from "../foto1.png"
-import malamo from "../foto2.png"
+import malamo from "../update1.png"
+import malamo2 from "../update2.png"
 import mcenare2 from "../mcenare2.png"
 import nayeni from "../nayeni.png"
 import malamo1 from "../malamo1.png"
@@ -14,13 +15,16 @@ import gamoc from "../gamoc.png"
 export default function Body(){
     return (
         <div>
-            <div className="main-body">
+            <div className="display-flex">
+            <div className="main-bodyy">
                 <div className="withimg">
-                    <img src={nayeni1} alt="" srcset="" />
+                    <img className="updatedbig" src={nayeni1} alt="" srcset="" />
                 </div>
-                <div className="withimg" >
+                <div className="withimg withimga" >
                     <img src={malamo} alt="" srcset="" />
+                    <img src={malamo2} alt="" srcset="" />
                 </div>
+            </div>
             </div>
             <h1>ჩვენი პროდუქცია</h1>
             <div>

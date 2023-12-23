@@ -14,6 +14,7 @@ import Production from './components/production';
 import Interview from './components/interview';
 import AboutUs from './components/aboutus';
 import Gayidvebi from './components/gayidulebi';
+import Contact from './components/contact';
 const rame= {color: 'red'}
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutus",
     element: <AboutUs prop={{color:'abus'}}  />
+  },
+  {
+    path: "/contact",
+    element: <Contact prop={{color:'abus'}}  />
   },
   {
     path: "/blogs",

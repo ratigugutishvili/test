@@ -25,23 +25,15 @@ export default function Header({prop}){
                 <div class="dropdown">
                     {prop.color == 'prod' && <a href="/production" style={{fontWeight:'bold'}} className="header-hoverii" >პროდუქცია</a>}
                     {prop.color !== 'prod' && <a href="/production" className="header-hoverii" >პროდუქცია</a>}
-                    <div class="dropdown-content">
-                            <div className="d-flex and">
-                                <div className="circle"></div>
-                                <div>ნაყენი</div>
-                            </div>
-                            <div className="d-flex and">
-                                <div className="circle"></div>
-                                <div>მალამო</div>
-                            </div>
-                    </div>
                 </div>
                 {prop.color == 'blog' && <a href="/blogs" style={{fontWeight:'bold'}} className="header-hoverii" >ბლოგი</a>}
                 {prop.color !== 'blog' && <a href="/blogs"  >ბლოგი</a>}
                 
                 {prop.color == 'abus' && <a href="/aboutus" style={{fontWeight:'bold'}} className="header-hoverii" >ჩვენ შესახებ</a>}
                 {prop.color !== 'abus' && <a href="/aboutus" className="header-hoverii" >ჩვენ შესახებ</a>}
-                <a href="x">კონტაქტი</a>
+
+                {prop.color == 'contact' && <a href="/contact" style={{fontWeight:'bold'}} className="header-hoverii" >კონტაქტები</a>}
+                {prop.color !== 'contact' && <a href="/contact" className="header-hoverii" >კონტაქტები</a>}
             </div>
             <div className="lang2">
             <div className="lang">
