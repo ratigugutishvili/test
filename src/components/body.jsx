@@ -18,8 +18,8 @@ export default function Body(){
         <div>
             <div className="display-flex">
             <div className="main-bodyy">
-                <div className="withimg">
-                    <img className="updatedbig" src={nayeni1} alt="" srcset="" />
+                <div className="">
+                    <img className="updatedbig withimga" src={nayeni1} alt="" srcset="" />
                 </div>
                 <div className="withimg withimga" >
                     <img src={malamo} alt="" srcset="" />
@@ -87,8 +87,9 @@ export default function Body(){
             </div>
             </div>
             <h1>გამოცდილება</h1>
+            <div className="rakiticha">
             <div className="d-flex experience">
-                <div >
+                <div className="akakie">
                     <div className="expspan strokeg">ნუკა კვალიაშვილი</div>
                     <div className="gamoc"><img src={gamoc} alt="" srcset="" /></div>
                     <div  className="expdiv">
@@ -104,7 +105,7 @@ export default function Body(){
                 </div>
             </div>
             <div className="d-flex experience">
-                <div >
+                <div className="akakie">
                     <div className="expspan strokeg">გია გოგორიშვილი</div>
                     <div className="gamoc"><img src={celeb} alt="" srcset="" /></div>
                     <div className="expdiv">
@@ -118,6 +119,7 @@ export default function Body(){
                         <span className="expspan">“მინდა რეკომენდაცია გავუწიო ქავთასს, არაჩვეულებრივი წამალია ზოგადად იმუნიტეტისთვის, დიდ მადლობას ვუხდი ქნ. ლელა გეჯაძეს გაწეული პროფესიონალური მომსახურებისთვის”</span>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )

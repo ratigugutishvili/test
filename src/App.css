@@ -538,11 +538,59 @@ p{
     gap: 5px;
     width: 100%;
   }
+  .withimga img{
+    width: 200px;
+    height: 100px;
+  }
+
+  .withimg img{
+    width: 100px;
+    height: 100px;
+  }
+  .withimga img{
+    width: 200px;
+    height: 100px;
+  }
+  .withimg span{
+    font-size: 12px;
+  }
   .forrela img{
     width: 230px;
   }
   .forpadd{
     gap: 5px;
+  }
+
+  .main-body{
+    gap: 7px;
+  }
+
+  .withspan{
+    margin-top: 0px;
+  }
+  .rakiticha{
+    display: flex;
+    flex-direction: column;
+  }
+  .experience{
+    flex-direction: column;
+  }
+  /* .akakie{
+    width: 200px;
+  }
+  .gamoc{
+    width: 200px;
+  }
+  .gamoc img{
+    width: 200px;
+  } */
+  .mcenare2{
+    width: 100px;
+    display: none;
+  }
+  .mcenare img{
+    width: 100px;
+    height: auto;
   }
   *{
     object-fit: contain;
