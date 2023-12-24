@@ -7,7 +7,7 @@
 .contact-span{
     color: #075105;
     font-size: 45px;
-    padding-left: 110px;
+    padding-left: 100px;
     margin-top: 130px;
     font-weight: bold;
     font-family: myFont;
@@ -17,11 +17,91 @@
 .contact-flex{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
+    font-family: myFont;
 }
 
 .contact-flex span{
+    font-size: 26px;
+    color: #075105;
+    font-weight: bold;
+    font-family: myFont;
+}
+
+.contact-margin{
+    margin-left: 100px;
+}
+
+.d-flex-conc{
+    margin-top: 60px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: myFont;
+}
+
+.contact-body{
+    display: flex;
+    gap: 100px;
+    font-family: myFont;
+}
+
+.contact-2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-2 span{
+    display: flex;
+    font-size: 30px;
+    gap: 10px;
+    color: #075105;
+    font-weight: bold;
+}
+
+.contact-2 img{
+    width: 32px;
+    height: 32px;
+}
+
+.contact-3{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-3 span{
     font-size: 30px;
     color: #075105;
     font-weight: bold;
+}
+
+.contact-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.conc-btn{
+    font-family: myFont;
+    background-color: transparent;
+    width: 544px;
+    height: 86px;
+    border: #075105 2px solid;
+    border-radius: 35px;
+    color: #075105;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.conc-btn:hover{
+    background-color: #075105;
+    color: white;
 }
