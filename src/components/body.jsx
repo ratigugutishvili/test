@@ -2,8 +2,9 @@ import nayeni1 from "../foto1.png"
 import malamo from "../update1.png"
 import malamo2 from "../update2.png"
 import mcenare2 from "../mcenare2.png"
-import nayeni from "../nayeni.png"
-import malamo1 from "../malamo1.png"
+import nayeni from "../axalinayeni.png"
+import malamo1 from "../axalimalamo.png"
+import malamo23 from "../axalimalamo2.png"
 import aboutus from "../lela.png"
 import aboutus3 from "../aboutus3.png"
 import mamao from "../mamao.png"
@@ -38,6 +39,10 @@ export default function Body(){
                 </div>
                 <div className="withimg" >
                     <img src={malamo1} alt="" srcset="" />
+                    <span>მალამო</span>
+                </div>
+                <div className="withimg" >
+                    <img src={malamo23} alt="" srcset="" />
                     <span>მალამო</span>
                 </div>
             </div>

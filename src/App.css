@@ -3,6 +3,7 @@
 }
 header {
   background-color: #F2F2F2;
+  width: 100%;
   padding: 2px;
   margin-top: 10px;
   font-size: 25px;
@@ -511,4 +512,39 @@ p{
 
 .margin-topee{
   margin-top: 60px;
+}
+
+
+@media only screen and (max-width: 393px) {
+  #root{
+    width: 399px;
+  }
+
+  .withspan{
+    width: 140px;
+    font-size: 12px;
+  }
+  .position{
+    width: 593px;
+  }
+  header{
+    width: 593px;
+    font-size: 12px;
+  }
+  .updatedbig{
+    width: 200px;
+  }
+  .main{
+    gap: 5px;
+    width: 100%;
+  }
+  .forrela img{
+    width: 230px;
+  }
+  .forpadd{
+    gap: 5px;
+  }
+  *{
+    object-fit: contain;
+  }
 }
