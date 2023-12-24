@@ -34,7 +34,7 @@ export default function Contact() {
         </div>
         <div className="contact-flexa contact-3">
           <img src={env} alt="" srcset="" />
-          <span>იყალთოს პირველი შესახვევ</span>
+          <span>იყალთოს პირველი შესახვევი</span>
         </div>
       </div>
       <div className="contact-button">

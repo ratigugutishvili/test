@@ -547,6 +547,9 @@ p{
     width: 100px;
     height: 100px;
   }
+  header img{
+    width: 60px;
+  }
   .withimga img{
     width: 200px;
     height: 100px;
@@ -595,4 +598,12 @@ p{
   *{
     object-fit: contain;
   }
+}
+
+
+
+.solds{
+  border: #075105 1px solid ;
+  margin-top: 20px;
+  width: 300px;
 }

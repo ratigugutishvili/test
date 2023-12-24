@@ -5,9 +5,11 @@ import malamo from "../malamo.png";
 import aboutus from "../lela.png";
 import nayeni2 from "../nayeniforprod.png";
 import { useState } from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 
 export default function Production({ prop }) {
   const [more, setmore] = useState(false);
+  const navigate = useNavigate()
   const gayidvebi = readLocalStorage()
   function add() {
     const obj = {address:'firosmani',phone:'555105360'}
@@ -49,7 +51,7 @@ export default function Production({ prop }) {
             </span>
           </div>
           <div className="d-flex withspan">
-            <button onClick={()=>{add()}}> დაგვიკავშირდი შესაძენად</button>
+            <button onClick={()=>{navigate('/buy')}}> დაგვიკავშირდი შესაძენად</button>
           </div>
 
         </div>

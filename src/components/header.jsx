@@ -18,7 +18,7 @@ export default function Header({prop}){
     console.log(prop.color);
     return (
         <header>
-            <img src={Logo} alt="" srcset="" />
+            <img src={Logo} alt="" srcset="" onClick={()=>{navigate('/')}} />
             <div className="main">
                 {prop.color == 'main' && <a href="/" style={{fontWeight:'bold'}}className="header-hoverii">მთავარი</a>}
                 {prop.color !== 'main' && <a href="/"className="header-hoverii">მთავარი</a>}

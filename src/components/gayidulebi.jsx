@@ -9,9 +9,11 @@ export default function Gayidvebi(){
             <Header />
             {sels.map((el)=>{
                 return (
-                <div>
-                    <div>{el.phone}</div>
-                    <div>{el.address}</div>
+                <div className="solds">
+                    <div>name: {el.name}</div>
+                    <div>lastname: {el.lastname}</div>
+                    <div>mobile: {el.mobile}</div>
+                    <div>adress: {el.adress}</div>
                 </div>
                 )
             })}

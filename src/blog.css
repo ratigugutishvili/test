@@ -51,6 +51,8 @@
 .blog-img{
     width: 350px;
     height: 425px;
+    border: 3px #075105 solid;
+    border-radius: 35px;
 }
 
 .blog2{
