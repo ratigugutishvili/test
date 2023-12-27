@@ -5,6 +5,7 @@ import blog3 from "../forblog3.png"
 import blog4 from "../forblog4.png"
 import blog5 from "../forblog5.png"
 import { useNavigate } from 'react-router-dom'
+import Footer from "./footer";
 
 export default function Blog({prop}){
     const navigate = useNavigate()
@@ -40,6 +41,7 @@ export default function Blog({prop}){
                     <span className="inreview">მეტი <br/> ქავთასის შესახებ</span>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

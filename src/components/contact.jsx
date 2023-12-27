@@ -3,6 +3,7 @@ import "../contact.css";
 import phone from "../phone.png";
 import loc from "../location-pin.png";
 import env from "../envelope.png";
+import Footer from "./footer";
 
 export default function Contact() {
   return (
@@ -40,6 +41,7 @@ export default function Contact() {
       <div className="contact-button">
         <button className="conc-btn">შეუკვეთე ქავთასი ახლავე</button>
       </div>
+      <Footer />
     </div>
   );
 }

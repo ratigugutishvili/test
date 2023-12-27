@@ -1,5 +1,6 @@
 import Header from "./header";
 import blog1 from "../blog1.png";
+import Footer from "./footer";
 
 export default function Interview() {
   return (
@@ -48,6 +49,7 @@ export default function Interview() {
           </span>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

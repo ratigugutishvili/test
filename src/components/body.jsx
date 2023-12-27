@@ -12,6 +12,7 @@ import celeb from "../celeb.png"
 import mcenare from "../mcenare1.png"
 import celeb2 from "../celeb2.png"
 import gamoc from "../gamoc.png"
+import Footer from "./footer"
 
 export default function Body(){
     return (
@@ -121,6 +122,7 @@ export default function Body(){
                 </div>
             </div>
             </div>
+            <Footer />
         </div>
     )
 }

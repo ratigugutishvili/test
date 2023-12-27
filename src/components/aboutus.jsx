@@ -2,6 +2,7 @@ import Header from "./header";
 import { useState } from "react";
 import aboutus from "../baoutus.png";
 import arrow from "../arrow.png";
+import Footer from "./footer";
 
 export default function AboutUs({ prop }) {
   const [isdown1, setdown1] = useState(false);
@@ -434,6 +435,7 @@ export default function AboutUs({ prop }) {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

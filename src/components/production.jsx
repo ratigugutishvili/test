@@ -6,6 +6,7 @@ import aboutus from "../lela.png";
 import nayeni2 from "../nayeniforprod.png";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
+import Footer from "./footer";
 
 export default function Production({ prop }) {
   const [more, setmore] = useState(false);
@@ -200,6 +201,7 @@ export default function Production({ prop }) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
