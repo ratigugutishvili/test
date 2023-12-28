@@ -47,7 +47,7 @@ export default function Header({prop}){
                 }
             </div>
             <div className="position">
-                <span>595 26 32 17</span>
+                <span>551 611 416</span>
             </div>
         </header>
     )

@@ -76,7 +76,11 @@
 .sales-btn{
     margin-top: 60px;
 }
-
+.contact-ako{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .sales-btn button{
     width: 400px;
     height: 60px;

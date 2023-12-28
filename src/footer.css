@@ -61,7 +61,10 @@
     font-weight: bold;
     cursor: pointer;
 }
-
+.footer-3 button:hover{
+    background-color: #075105;
+    color: white;
+}
 .footer-1 span{
     cursor: pointer;
 }
