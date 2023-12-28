@@ -96,3 +96,7 @@
     background-color: #075105;
     color: white;
 }
+
+.wrong-sale{
+    border: 2px red solid;
+}

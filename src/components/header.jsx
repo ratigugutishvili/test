@@ -16,7 +16,7 @@ export default function Header({prop}){
     }
     return (
         <header>
-            <img src={Logo} alt="" srcset="" onClick={()=>{navigate('/')}} />
+            <img src={Logo} alt="" srcset="" onClick={()=>{navigate('/')}} style={{cursor:'pointer'}} />
             <div className="main">
                 {prop.color == 'main' && <a href="/" style={{fontWeight:'bold'}}className="header-hoverii">მთავარი</a>}
                 {prop.color !== 'main' && <a href="/"className="header-hoverii">მთავარი</a>}

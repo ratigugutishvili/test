@@ -11,12 +11,14 @@ export default function FormQavtas() {
   const [city, setcity] = useState("");
   const [mobile, setmobile] = useState("");
   const [mobileT, setmobileT] = useState(false);
+  const [mobileB, setmobileB] = useState(true);
   const [email, setemail] = useState("");
   const [adress, setadress] = useState("");
   function buy() {
     if (mobile.length <9) {
       console.log('error');
       setmobileT(true)
+      setmobileB(false)
       return
     }
     const obj = { name, city, mobile, adress, email, value };
@@ -39,10 +41,14 @@ export default function FormQavtas() {
               <input type="text" placeholder="             სახელი და გვარი"  value={name} onChange={(e)=>{setname(e.target.value)}}/>
             </div>
             <div>
-              <input type="text" placeholder="              ტელეფონის ნომერი"  value={mobile} onChange={(e)=>{
+            {mobileB &&<input type="text" placeholder="              ტელეფონის ნომერი"  value={mobile} onChange={(e)=>{
                 setmobile(e.target.value)
                 setmobileT(false)
-              }}/>
+              }}/>}
+            {mobileB == false &&<input type="text" placeholder="              ტელეფონის ნომერი"  value={mobile} className="wrong-sale" style={{border:'1px solid red'}} onChange={(e)=>{
+                setmobile(e.target.value)
+                setmobileT(false)
+              }}/>}
             </div>
             <div>
               <input
