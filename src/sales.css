@@ -1,0 +1,94 @@
+@font-face {
+    font-family: myFont;
+    src: url('./gl-gordeziani-regular.ttf');
+}
+
+
+
+.sales-flex{
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.sales-span{
+    font-family: myFont;
+    font-size: 35px;
+    color: #075105;
+    font-weight: bold;
+}
+
+.center-sales{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+
+.sales-input{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.for-lamazi{
+    position: relative;
+}
+
+.imgitqo{
+    position: absolute;
+    right: 1px;
+    top: 130px;
+}
+
+
+.imgitqo2{
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+}
+
+
+.sales-input input{
+    width: 400px;
+    height: 60px;
+    background-color: #EEEEEE;
+    border: #075105 2px solid;
+    border-radius: 15px;
+    color: #075105;
+    font-size: 20px;
+}
+
+.select{
+    width: 400px;
+    height: 60px;
+    background-color: #EEEEEE;
+    border: #075105 2px solid;
+    border-radius: 15px;
+    color: #075105;
+    font-size: 20px;
+}
+
+.select option{
+    font-size: 20px;
+}
+
+
+.sales-btn{
+    margin-top: 60px;
+}
+
+.sales-btn button{
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    border: #075105 2px solid;
+    color: #075105;
+    font-size: 20px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.sales-btn button:hover{
+    background-color: #075105;
+    color: white;
+}

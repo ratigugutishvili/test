@@ -197,7 +197,7 @@ export default function Production({ prop }) {
               </span>
             </div>
           <div className="d-flex withspan">
-            <button > დაგვიკავშირდი შესაძენად</button>
+            <button onClick={()=>{navigate('/buy')}}> დაგვიკავშირდი შესაძენად</button>
           </div>
         </div>
       </div>

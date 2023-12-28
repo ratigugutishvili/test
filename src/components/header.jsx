@@ -9,13 +9,11 @@ export default function Header({prop}){
     const navigate = useNavigate()
     const [dropdownn,setdropdown] = useState(false)
     function dropdown() {
-        console.log(dropdownn);
         setdropdown(!dropdownn)
     }
     if (!prop) {
         prop={color:'green'}
     }
-    console.log(prop.color);
     return (
         <header>
             <img src={Logo} alt="" srcset="" onClick={()=>{navigate('/')}} />
