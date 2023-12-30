@@ -5,7 +5,7 @@ import Header from './components/header';
 function App() {
   return (
     <div className='responsa'>
-      <Header prop={{color:'main'}} />
+      <Header prop={{color:'main'}}/>
       <Body />
     </div>
   );

@@ -38,14 +38,14 @@ export default function FormQavtas() {
         <div className="sales-flex">
           <div className="sales-input">
             <div>
-              <input type="text" placeholder="             სახელი და გვარი"  value={name} onChange={(e)=>{setname(e.target.value)}}/>
+              <input type="text" placeholder="      სახელი და გვარი"  value={name} onChange={(e)=>{setname(e.target.value)}}/>
             </div>
             <div>
-            {mobileB &&<input type="text" placeholder="              ტელეფონის ნომერი"  value={mobile} onChange={(e)=>{
+            {mobileB &&<input type="text" placeholder="       ტელეფონის ნომერი"  value={mobile} onChange={(e)=>{
                 setmobile(e.target.value)
                 setmobileT(false)
               }}/>}
-            {mobileB == false &&<input type="text" placeholder="              ტელეფონის ნომერი"  value={mobile} className="wrong-sale" style={{border:'1px solid red'}} onChange={(e)=>{
+            {mobileB == false &&<input type="text" placeholder="     ტელეფონის ნომერი"  value={mobile} className="wrong-sale" style={{border:'1px solid red'}} onChange={(e)=>{
                 setmobile(e.target.value)
                 setmobileT(false)
               }}/>}
@@ -53,17 +53,17 @@ export default function FormQavtas() {
             <div>
               <input
                 type="text"
-                placeholder="              ელ-ფოსტის მისამართი"
+                placeholder="    ელ-ფოსტის მისამართი"
                  value={email} onChange={(e)=>{setemail(e.target.value)}}
               />
             </div>
           </div>
           <div className="sales-input">
             <div>
-              <input type="text" placeholder="              ქალაქი"  value={city} onChange={(e)=>{setcity(e.target.value)}}/>
+              <input type="text" placeholder="     ქალაქი"  value={city} onChange={(e)=>{setcity(e.target.value)}}/>
             </div>
             <div>
-              <input type="text" placeholder="              მისამართი" value={adress} onChange={(e)=>{setadress(e.target.value)}} />
+              <input type="text" placeholder="     მისამართი" value={adress} onChange={(e)=>{setadress(e.target.value)}} />
             </div>
             <div>
               <select
