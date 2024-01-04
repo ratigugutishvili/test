@@ -16,11 +16,11 @@ export default function Header({prop}){
     }
     return (
         <header>
-            <img src={Logo} alt="" srcset="" onClick={()=>{navigate('/')}} style={{cursor:'pointer'}} />
+            <img src={Logo} alt="" onClick={()=>{navigate('/')}} style={{cursor:'pointer'}} />
             <div className="main">
                 {prop.color == 'main' && <a href="/" style={{fontWeight:'bold'}}className="header-hoverii">მთავარი</a>}
                 {prop.color !== 'main' && <a href="/"className="header-hoverii">მთავარი</a>}
-                <div class="dropdown">
+                <div className="dropdown">
                     {prop.color == 'prod' && <a href="/production" style={{fontWeight:'bold'}} className="header-hoverii" >პროდუქცია</a>}
                     {prop.color !== 'prod' && <a href="/production" className="header-hoverii" >პროდუქცია</a>}
                 </div>
@@ -35,12 +35,12 @@ export default function Header({prop}){
             </div>
             <div className="lang2">
             <div className="lang">
-                <img src={Lang} alt="" srcset="" onClick={dropdown} />
+                <img src={Lang} alt="" onClick={dropdown} />
             </div>
                 {dropdownn &&
                     <div className="block">
                     <div onClick={console.log(12)}>
-                        <img src={georgia} alt="" srcset="" />
+                        <img src={georgia} alt=""/>
                         <span>ქართული</span>
                     </div>
                 </div>

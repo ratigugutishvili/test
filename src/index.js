@@ -16,6 +16,7 @@ import AboutUs from './components/aboutus';
 import Gayidvebi from './components/gayidulebi';
 import Contact from './components/contact';
 import FormQavtas from './components/form';
+import Order from './components/orderdone';
 const rame= {color: 'red'}
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
     element: <Interview />
   },
   {
-    path: "/sales",
+    path: "/sales/:number",
     element: <Gayidvebi />
   },
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact prop={{color:'abus'}}  />
+  },
+  {
+    path: "/ordersent",
+    element: <Order  />
   },
   {
     path: "/buy",

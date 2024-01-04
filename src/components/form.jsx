@@ -4,8 +4,10 @@ import { useState } from "react";
 import Footer from "./footer";
 import lamazi from "../lamazi.png";
 import lamazi2 from "../lamazi2.png";
+import { useNavigate } from 'react-router-dom'
 
 export default function FormQavtas() {
+  const navigate = useNavigate()
   const [name, setname] = useState("");
   const [value, setValue] = useState("");
   const [city, setcity] = useState("");
@@ -21,11 +23,16 @@ export default function FormQavtas() {
       setmobileB(false)
       return
     }
+    if (name == '' || value == '' || mobile == '' || city == '' || email=='' || adress==='') {
+      console.log('error');
+      setmobileT(true)
+      return
+    }
     const obj = { name, city, mobile, adress, email, value };
     var damatebulebi = readLocalStorage();
     damatebulebi.push(obj);
     localStorage.setItem("gayidvebi", JSON.stringify(damatebulebi));
-    console.log(obj);
+    navigate('/ordersent')
   }
   return (
     <div className="for-lamazai">

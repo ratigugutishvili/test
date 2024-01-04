@@ -162,6 +162,8 @@ img{
   margin-bottom: 10px;
 }
 
+
+
 .ourprod2{
   margin-top: 100px;
   display: flex;
@@ -606,8 +608,67 @@ p{
 
 
 
-.solds{
-  border: #075105 1px solid ;
-  margin-top: 20px;
-  width: 300px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+th, tr {
+  border:1px solid black;
+}
+
+tr{
+  width: 100%;
+}
+ td span{
+  font-size: 21px;
+  font-weight: bolder;
+  border-left: 2px solid #075105;
+  padding-left: 20px;
+ }
+
+.for-lela{
+  color: #075105;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.lela-inside{
+  font-size: 20px;
+  color: #075105;
+  font-weight: bolder;
+  border: 1px solid #075105;
+  border-radius: 35px;
+  text-align: center;
+}
+
+.lela-inside1{
+  width: 100px;
 }

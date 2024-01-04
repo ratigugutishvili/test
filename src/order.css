@@ -1,0 +1,49 @@
+@font-face {
+    font-family: myFont;
+    src: url('./gl-gordeziani-regular.ttf');
+}
+
+
+
+.order-flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: myFont;
+}
+
+.order-center{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.order-span{
+    font-size: 43px;
+    color: #075105;
+    font-weight: bold;
+}
+
+.order-span1{
+    font-size: 38px;
+    color: #075105;
+    line-height: 85%;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+.order-span2{
+    font-size: 38px;
+    color: #075105;
+    line-height: 85%;
+    margin-top: 10px;
+}
+
+.order-span3{
+    font-size: 38px;
+    color: #075105;
+    line-height: 85%;
+    margin-top: 10px;
+}
+
