@@ -29,9 +29,12 @@ export default function FormQavtas() {
       return
     }
     const obj = { name, city, mobile, adress, email, value };
-    var damatebulebi = readLocalStorage();
-    damatebulebi.push(obj);
-    localStorage.setItem("gayidvebi", JSON.stringify(damatebulebi));
+      fetch('https://dolphin-app-5on2b.ondigitalocean.app/newsale', {method: "POST",  body:JSON.stringify(obj), headers: {"Content-Type": "application/json", }} )
+      .then(response => response.json())
+      .then(data => {
+          console.log(data);
+      })
+      .catch(error => console.log(error + "qwerqwerqewr"));
     navigate('/ordersent')
   }
   return (

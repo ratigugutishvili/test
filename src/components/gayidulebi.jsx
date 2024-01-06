@@ -1,22 +1,55 @@
 import Header from "./header";
+import { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'
 import trash from "../trash.png"
 
 export default function Gayidvebi(){
-    const sels = readLocalStorage()
+    const [sels, setdata] = useState([])
+    useEffect(() => {
+        const fetchData = async () => {
+          try {
+            const response = await fetch("https://dolphin-app-5on2b.ondigitalocean.app/sales", {
+              method: "GET",
+              headers: {
+                "Content-Type": "application/json",
+              },
+            });
+    
+            const data = await response.json();
+    
+            setdata(data.sales);
+          } catch (error) {
+            console.log(error + "qwerqwerqewr");
+          }
+        };
+    
+        fetchData();
+      }, []);
     const navigate = useNavigate()
     const { number } = useParams();
     console.log(sels);
     function deletesale(name) {
-        const currentsale = sels.find((el)=>{
-            return el.name == name
-        })
-        const indexa = sels.indexOf(currentsale)
-        sels.splice(indexa,1)
-        localStorage.setItem('gayidvebi',JSON.stringify(sels))
-        window.location.reload()
-    }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(`https://dolphin-app-5on2b.ondigitalocean.app/delete/${name}`, {
+              method: "DELETE",
+              headers: {
+                "Content-Type": "application/json",
+              },
+            });
+    
+            const data = await response.json();
+    
+    
+          } catch (error) {
+            console.log(error + "qwerqwerqewr");
+          }
+        };
+    
+        fetchData();
+        window.location.reload();
+      }
     return(
         <div>
             <Header />
