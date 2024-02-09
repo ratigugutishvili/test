@@ -581,7 +581,7 @@ p{
 }
 
 
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 390px) {
   #root{
     width: 399px;
   }
