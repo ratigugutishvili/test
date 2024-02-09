@@ -6,6 +6,7 @@ import trash from "../trash.png"
 
 export default function Gayidvebi(){
     const [sels, setdata] = useState([])
+    const [test,settest] = useState([])
     useEffect(() => {
         const fetchData = async () => {
           try {
@@ -20,12 +21,15 @@ export default function Gayidvebi(){
     
             setdata(data.sales);
           } catch (error) {
-            console.log(error + "qwerqwerqewr");
+            console.log(error + "pirveli");
           }
         };
     
         fetchData();
       }, []);
+
+
+      
     const navigate = useNavigate()
     const { number } = useParams();
     console.log(sels);
@@ -40,6 +44,7 @@ export default function Gayidvebi(){
             });
     
             const data = await response.json();
+            console.log(data);
     
     
           } catch (error) {

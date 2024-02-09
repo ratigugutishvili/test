@@ -1,6 +1,12 @@
 *{
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: myFont;
+  src: url('./gl-gordeziani-regular.ttf');
+}
+
 header {
   background-color: #F2F2F2;
   width: 100%;
@@ -513,6 +519,60 @@ p{
   }
 }
 
+.mobile{
+  display: none;
+  position: relative;
+}
+
+.mobile-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 15px;
+}
+.mobile-dropdown{
+  width: 100px;
+  position: relative;
+}
+
+.main-mobile{
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  right: -10px;
+  top: 30px;
+  z-index: 100;
+  background-color: #F2EDED;
+  border-radius: 35px;
+}
+
+.main-mobile a{
+  text-decoration: none;
+  color: #075105;
+  font-family: myFont;
+  font-size: 24px;
+}
+
+.mobile-header span{
+  font-family: myFont;
+  font-size: 24px;
+}
+
+.header-img-mobile{
+  width: 84px;
+  height: 73px;
+}
+
+.arrow-mobile{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
 
 
 
@@ -533,9 +593,11 @@ p{
   .position{
     width: 593px;
   }
-  header{
-    width: 593px;
-    font-size: 12px;
+  .pc{
+    display: none;
+  }
+  .mobile{
+    display: block;
   }
   .updatedbig{
     width: 200px;
@@ -552,9 +614,6 @@ p{
   .withimg img{
     width: 100px;
     height: 100px;
-  }
-  header img{
-    width: 60px;
   }
   .withimga img{
     width: 200px;
@@ -581,18 +640,10 @@ p{
     display: flex;
     flex-direction: column;
   }
+
   .experience{
     flex-direction: column;
   }
-  /* .akakie{
-    width: 200px;
-  }
-  .gamoc{
-    width: 200px;
-  }
-  .gamoc img{
-    width: 200px;
-  } */
   .mcenare2{
     width: 100px;
     display: none;
@@ -604,36 +655,8 @@ p{
   *{
     object-fit: contain;
   }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
