@@ -545,7 +545,7 @@ p{
   gap: 15px;
   position: absolute;
   right: -10px;
-  top: 30px;
+  top: 90px;
   z-index: 100;
   background-color: #F2EDED;
   border-radius: 35px;
@@ -581,7 +581,7 @@ p{
 }
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
   #root{
     width: 399px;
   }
