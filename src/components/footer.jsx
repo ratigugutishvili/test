@@ -8,7 +8,7 @@ import "../footer.css"
 export default function Footer(){
     const navigate = useNavigate()
     return(
-        <div>
+        <div className="mobile-footer">
                     <div className="footer">
             <div className="footer-1">
                 <span onClick={()=>{navigate('/production')}}>პროდუქცია</span>

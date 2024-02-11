@@ -624,8 +624,10 @@ p{
 }
 
 .img-changer{
+  margin-top: 25px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .mobile-nayeni{

@@ -81,3 +81,10 @@
     font-family: myFont;
     height: 50px;
 }
+
+
+@media only screen and (max-width: 430px){
+    .mobile-footer{
+        display: none;
+    }
+}
