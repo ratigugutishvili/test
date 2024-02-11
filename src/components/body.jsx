@@ -32,6 +32,7 @@ export default function Body(){
         } else {
             setImages(images + 1);
         }
+        
     }
     
     function changeless() {
