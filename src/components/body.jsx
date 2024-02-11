@@ -17,12 +17,21 @@ import Footer from "./footer"
 export default function Body(){
     return (
         <div>
-            <div className="display-flex">
+            <div className="display-flex into-mobile">
             <div className="main-bodyy">
                 <div className="">
                     <img className="updatedbig withimga" src={nayeni1} alt="" srcset="" />
                 </div>
                 <div className="withimg withimga" >
+                    <img src={malamo} alt="" srcset="" />
+                    <img src={malamo2} alt="" srcset="" />
+                </div>
+            </div>
+            </div>
+            <div className="for-none">
+            <div className="mobile-body"><img className="mobile-nayeni" src={nayeni1} alt="" srcset="" /></div>
+            <div className="mobile-main-body">
+                <div className="mobile-flex" >
                     <img src={malamo} alt="" srcset="" />
                     <img src={malamo2} alt="" srcset="" />
                 </div>

@@ -575,15 +575,50 @@ p{
 }
 
 
-
+.for-none{
+  display: none;
+}
 .margin-topee{
   margin-top: 60px;
+}
+
+.mobile-body{
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-flex{
+  display: flex;
+  justify-content: center;
+}
+.mobile-flex img{
+  width: 180px;
+  height: 130xp;
+}
+
+.mobile-nayeni{
+  width: 367px;
+  height: 220px;
 }
 
 
 @media only screen and (max-width: 400px) {
   #root{
     width: 399px;
+  }
+
+  h1{
+    display: none;
+  }
+  .into-mobile{
+    display: none;
+  }
+  .main-body{
+    display: none;
+  }
+
+  .for-none{
+    display: block;
   }
 
   .withspan{
