@@ -623,6 +623,11 @@ p{
   height: 130xp;
 }
 
+.img-changer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .mobile-nayeni{
   width: 367px;
   height: 220px;
@@ -689,6 +694,7 @@ p{
   }
   .forpadd{
     gap: 5px;
+    display: none;
   }
 
   .main-body{
@@ -699,8 +705,7 @@ p{
     margin-top: 0px;
   }
   .rakiticha{
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
 
   .experience{

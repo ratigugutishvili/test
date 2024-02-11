@@ -1,3 +1,4 @@
+import { useState } from "react"
 import nayeni1 from "../foto1.png"
 import malamo from "../update1.png"
 import malamo2 from "../update2.png"
@@ -6,6 +7,12 @@ import nayeni from "../axalinayeni.png"
 import malamo1 from "../axalimalamo.png"
 import mobileabus from "../mobile-abus.png"
 import mobileabus1 from "../mobile-abus1.png"
+import left from "../left.png"
+import right from "../right.png"
+import first from "../first.png"
+import second from "../second.png"
+import third from "../third.png"
+import fourth from "../fourth.png"
 import malamo23 from "../axalimalamo2.png"
 import aboutus from "../lela.png"
 import aboutus3 from "../aboutus3.png"
@@ -17,6 +24,21 @@ import gamoc from "../gamoc.png"
 import Footer from "./footer"
 
 export default function Body(){
+    var [images,setimages]= useState(1)
+    function changemore (){
+        if (images === 4) {
+            setimages(1)
+            return
+        }
+        setimages(images++)
+    }
+    function changeless (){
+        if (images === 1) {
+            setimages(4)
+            return
+        }
+        setimages(images--)
+    }
     return (
         <div>
             <div className="display-flex into-mobile">
@@ -68,6 +90,24 @@ export default function Body(){
                 <div className="mobile-abus-span"><span>ყოველდღიურ პრაქტიკაში ჩვენ სხვადასხვა დაავადებასთან ბრძოლის ახალ მეთოდებს ვეძებთ. განსაკუთებით კი მაშინ, როდესაც მედიცინა უძლურია და გამოჯანმრთელების იმედს ბოლომდე ვერ გვაძლევს. აღმოჩნდა, რომ საქართველოში ბევრი ასეთი ადამიანია, რომლებმაც ბოლო იმედად უნიკალური სამკურნალო ნაყენი „ქავთასი“ აირჩიეს. </span></div>
                 <div className="mobile-abus">გამოცდილება</div>
             </div>
+
+
+            <div className="img-changer">
+                <div><img src={left} alt="" srcset="" onClick={()=>{changeless()}}/></div>
+                <div>
+                    {images == 1 && <img src={first} alt="" srcset=""/> }
+                    {images == 2 && <img src={second} alt="" srcset=""/> }
+                    {images == 3 && <img src={third} alt="" srcset=""/> }
+                    {images == 4 && <img src={fourth} alt="" srcset=""/> }
+                </div>
+                <div><img src={right} alt="" srcset="" onClick={()=>{changemore()}} /></div>
+            </div>
+
+
+
+
+
+
             </div>
             <h1>ჩვენს შესახებ</h1>
             <div  className="agharvici">
