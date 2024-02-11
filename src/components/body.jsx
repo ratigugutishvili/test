@@ -24,21 +24,24 @@ import gamoc from "../gamoc.png"
 import Footer from "./footer"
 
 export default function Body(){
-    var [images,setimages]= useState(1)
-    function changemore (){
+    var [images, setImages] = useState(1);
+
+    function changemore() {
         if (images === 4) {
-            setimages(1)
-            return
+            setImages(1);
+        } else {
+            setImages(images + 1);
         }
-        setimages(images++)
     }
-    function changeless (){
+    
+    function changeless() {
         if (images === 1) {
-            setimages(4)
-            return
+            setImages(4);
+        } else {
+            setImages(images - 1);
         }
-        setimages(images--)
     }
+    
     return (
         <div>
             <div className="display-flex into-mobile">
