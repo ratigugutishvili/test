@@ -4,6 +4,8 @@ import malamo2 from "../update2.png"
 import mcenare2 from "../mcenare2.png"
 import nayeni from "../axalinayeni.png"
 import malamo1 from "../axalimalamo.png"
+import mobileabus from "../mobile-abus.png"
+import mobileabus1 from "../mobile-abus1.png"
 import malamo23 from "../axalimalamo2.png"
 import aboutus from "../lela.png"
 import aboutus3 from "../aboutus3.png"
@@ -56,7 +58,16 @@ export default function Body(){
                     <span>მალამო</span>
                 </div>
             </div>
-            
+            <div className="for-none">
+                <div className="mobile-abus">ჩვენ შესახებ</div>
+                <div className="mobile-abus-span"><span>სასწაულმოქმედი ქართული ნაყენი - ქავთასი, რომელიც უმძიმეს დაავადებებს ამარცხებს, უკვე 18 წელია წარმატებით კურნავს უმძიმეს პაციენტებს საქართველოსა და მსოფლიოს მრავალ ქვეყანაში.</span></div>
+                <div className="mobile-abus-img">
+                    <img src={mobileabus} alt="" />
+                    <img src={mobileabus1} alt="" />
+                </div>
+                <div className="mobile-abus-span"><span>ყოველდღიურ პრაქტიკაში ჩვენ სხვადასხვა დაავადებასთან ბრძოლის ახალ მეთოდებს ვეძებთ. განსაკუთებით კი მაშინ, როდესაც მედიცინა უძლურია და გამოჯანმრთელების იმედს ბოლომდე ვერ გვაძლევს. აღმოჩნდა, რომ საქართველოში ბევრი ასეთი ადამიანია, რომლებმაც ბოლო იმედად უნიკალური სამკურნალო ნაყენი „ქავთასი“ აირჩიეს. </span></div>
+                <div className="mobile-abus">გამოცდილება</div>
+            </div>
             </div>
             <h1>ჩვენს შესახებ</h1>
             <div  className="agharvici">

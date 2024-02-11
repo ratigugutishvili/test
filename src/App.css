@@ -574,6 +574,33 @@ p{
   top: 20px;
 }
 
+.mobile-abus{
+  color: #075105;
+  text-align: center;
+  font-family: myFont;
+  margin-top: 44px;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.mobile-abus-span{
+  padding: 16px;
+  color: #075105;
+  font-family: myFont;
+  font-size: 24px;
+}
+
+.mobile-abus-img{
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-abus-img img{
+  width: 165px;
+  height: 144px;
+  gap: 10px;
+}
+
 
 .for-none{
   display: none;
@@ -602,7 +629,7 @@ p{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   #root{
     width: 399px;
   }
