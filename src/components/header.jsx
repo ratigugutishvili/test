@@ -59,7 +59,12 @@ export default function Header({prop}){
             <div className="mobile">
                 <div className="mobile-header">
                     <div><img src={Logo} alt="" className="header-img-mobile" /></div>
-                    <div><span>ქავთასი ნაყენი</span></div>
+                    <div>
+                    {prop.mobile == "mtavari" && <span>ქავთასი ნაყენი</span> }
+                    {prop.mobile == "prod" && <span>ჩვენი პროდუქცია</span> }
+                    {prop.mobile == "aboutus" && <span>ქავთასი ნაყენი</span> }
+                    {prop.mobile == "blogs" && <span>ქავთასი ნაყენი</span> }
+                    </div>
                     <div><img src={headerlogo} alt="" onClick={()=>{mobiledropdown()}} /></div>
                 </div>
                 {mobileHeader && 

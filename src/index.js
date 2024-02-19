@@ -21,7 +21,7 @@ const rame= {color: 'red'}
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App prop={{color:'main'}} />
+    element: <App prop={{color:'main',mobile:"mtavati"}} />
   },
   {
     path: "/interview",

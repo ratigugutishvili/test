@@ -645,6 +645,47 @@ p{
 }
 
 
+
+.first-two div{
+  width: min-content;
+  text-align: center;
+}
+
+.first-two{
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+  font-family: myFont;
+  color: #075105;
+  font-size: 25px;
+}
+
+.mobile-qav{
+  display: flex;
+  justify-content: center;
+  font-family: myFont;
+  color: #075105;
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+.mobile-withspan{
+  width: auto;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.mobile-nayeni-prod{
+  
+}
+
+
+
+
+
+
 @media only screen and (max-width: 430px) {
   #root{
     width: 399px;
@@ -724,6 +765,9 @@ p{
     margin-top: 0px;
   }
   .rakiticha{
+    display: none;
+  }
+  .for-pc{
     display: none;
   }
 
