@@ -81,33 +81,26 @@
     font-family: myFont;
     height: 50px;
 }
-
-
-@media only screen and (max-width: 430px){
-    .footer-1{
-        display: none;
-    }
-    .footer-2{
-        display: none;
-    }
-    .footer-3{
-        display: none;
-    }
-    .end-footer{
-        display: none;
-    }
-    .end-footer{
-        display: none;
-    }
-}
-
 .mobile-main-footer{
     color: #075105;
     font-size: 22px;
-    display: flex;
+    display: none;
     font-family: myFont;
     gap: 115px;
+    margin-top: 90px;
+    background-color: #F2F2F2;
 }
+
+@media only screen and (max-width: 430px){
+    .mobile-footer{
+        display: none;
+    }
+    .mobile-main-footer{
+        display: flex;
+    }
+}
+
+
 
 .mobile-footer-three{
     display: flex;
