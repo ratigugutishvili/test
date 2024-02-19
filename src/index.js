@@ -17,6 +17,7 @@ import Gayidvebi from './components/gayidulebi';
 import Contact from './components/contact';
 import FormQavtas from './components/form';
 import Order from './components/orderdone';
+import MobileProd from './components/prod-mobile';
 const rame= {color: 'red'}
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
     path: "/blogs",
     element: <Blog prop={{color:'blog'}} />
   },
+  {
+    path: "/mobileProd",
+    element: <MobileProd />
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

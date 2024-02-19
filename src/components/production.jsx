@@ -4,6 +4,7 @@ import malamo1 from "../malamoforprod.png";
 import malamo from "../mobile-second.png";
 import nayeni from "../mobile-first.png";
 import nayeni2 from "../nayeniforprod.png";
+import mobileProd from "../mobile-prod.png";
 import nayeniMobile from "../mobile-third.png";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
@@ -234,13 +235,72 @@ export default function Production({ prop }) {
         </div>
         <div className="mobile-prod">
           <div className="mobile-nayeni-prod">
-            <span>რას კურნავს ნაყენი ქავთასი?<br /> დააჭირეთ აქ მეტის სანახავად</span>
+            <span onClick={()=>{navigate("/mobileprod")}}>რას კურნავს ნაყენი ქავთასი?<br /> დააჭირეთ აქ მეტის სანახავად</span>
             <button>შეუკვეთე ეხლავე</button>
           </div>
           <img src={nayeniMobile} alt="" srcset="" />
+        </div>
+        <div className="prodnav"><span>ქავთასი მალამო</span></div>
+        <div className="justeasy"><span>ბუასილის და ჰემოროიდული კვანძების საწინააღმდეგო მალამო "ქავთასი" :</span></div>
+        <div className="mobile-font">
+          <div className="d-flex withspana mobile-withspan">
+            <div className="for-more-circle"></div>
+            <span>
+            ხსნის ტკივილსა და სისხლდენას.
+            </span>
+          </div>
+          <div className="d-flex withspana mobile-withspan">
+            <div className="for-more-circle"></div>
+            <span>
+            ახორცებს ნახეთქებს, არის ძლიერი ანტისეპტიკი.
+            </span>
+          </div>
+          <div className="d-flex withspana mobile-withspan">
+            <div className="for-more-circle"></div>
+            <span>
+            ხსნის ქავილის და დაჭიმულობის შეგრძნებას.
+            </span>
+          </div>
+          <div className="d-flex withspana mobile-withspan">
+            <div className="for-more-circle"></div>
+            <span>
+            აქვს უნარი გაიწოვოს კვანძები.
+            </span>
+          </div>
+          <div className="d-flex withspana mobile-withspan">
+            <div className="for-more-circle"></div>
+            <span>
+            მომენტალურად ახორცებს ნახეთქებს.
+            </span>
+          </div>
+          <div className="d-flex withspana mobile-withspan">
+            <div className="for-more-circle"></div>
+            <span>
+            რაც მთავარია არ შეიცავს ჰორმონს.
+            </span>
+          </div>
+        </div>
+        <div className="mobile-malamo">
+          <img src={mobileProd} alt="" srcset="" />
+          <button> შეუკვეთე ეხლავე </button>
         </div>
         <Footer />
       </div>
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

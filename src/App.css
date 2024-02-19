@@ -710,8 +710,63 @@ p{
 }
 
 
+.prodnav{
+  color: #075105;
+  font-family: myFont;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 25px;
+}
 
+.prod-nav{
+  display: flex;
+  justify-content: end;
+  padding: 15px;
+}
 
+.prod-nav button{
+  width: 146px;
+  height: 35px;
+  color: #075105;
+  font-size: 20px;
+  font-family: myFont;
+  background-color: white;
+  text-align: center;
+  border: 1px solid #075105;
+  border-radius: 35px;
+  padding-top: 3px;
+}
+
+.justeasy{
+  color: #075105;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+.mobile-font{
+  font-size: 18px;
+}
+
+.mobile-malamo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobile-malamo button{
+  width: 146px;
+  height: 35px;
+  color: #075105;
+  font-size: 20px;
+  font-family: myFont;
+  background-color: white;
+  text-align: center;
+  border: 1px solid #075105;
+  border-radius: 35px;
+  padding-top: 3px;
+}
 
 
 @media only screen and (max-width: 430px) {
