@@ -4,6 +4,7 @@ import malamo1 from "../malamoforprod.png";
 import malamo from "../mobile-second.png";
 import nayeni from "../mobile-first.png";
 import nayeni2 from "../nayeniforprod.png";
+import nayeniMobile from "../mobile-third.png";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import Footer from "./footer";
@@ -231,11 +232,12 @@ export default function Production({ prop }) {
             </span>
           </div>
         </div>
-        <div>
+        <div className="mobile-prod">
           <div className="mobile-nayeni-prod">
-            <span>რას კურნავს ნაყენი ქავთასი? დააჭირეთ აქ მეტის სანახავად</span>
+            <span>რას კურნავს ნაყენი ქავთასი?<br /> დააჭირეთ აქ მეტის სანახავად</span>
             <button>შეუკვეთე ეხლავე</button>
           </div>
+          <img src={nayeniMobile} alt="" srcset="" />
         </div>
         <Footer />
       </div>

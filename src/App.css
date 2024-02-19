@@ -678,7 +678,35 @@ p{
 }
 
 .mobile-nayeni-prod{
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: myFont;
+}
+
+.mobile-nayeni-prod span{
+  font-size: 22px;
+}
+
+.mobile-nayeni-prod button{
+  width: 146px;
+  height: 35px;
+  color: #075105;
+  font-size: 20px;
+  font-family: myFont;
+  background-color: white;
+  text-align: center;
+  border: 1px solid #075105;
+  border-radius: 35px;
+  padding-top: 3px;
+}
+
+.mobile-prod{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 
@@ -687,9 +715,7 @@ p{
 
 
 @media only screen and (max-width: 430px) {
-  #root{
-    width: 399px;
-  }
+
 
   .mobile-span{
     display: block;
